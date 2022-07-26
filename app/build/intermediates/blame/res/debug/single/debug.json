@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_color_cursor.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\drawable\\color_cursor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    }
+]
