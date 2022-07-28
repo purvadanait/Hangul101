@@ -1,5 +1,6 @@
 package ibm.tf.hangul;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TextView drawHereText = (TextView) findViewById(R.id.drawHere);
         paintView.setDrawText(drawHereText);
 
-        Button clearButton = (Button) findViewById(R.id.buttonClear);
+        Button clearButton = (Button) findViewById(R.id.btnCam);
         clearButton.setOnClickListener(this);
 
         Button classifyButton = (Button) findViewById(R.id.buttonClassify);
@@ -72,8 +73,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.buttonClear:
-                clear();
+            case R.id.btnCam:
+                Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+                startActivity(intent);
                 break;
             case R.id.buttonClassify:
                 classify();
