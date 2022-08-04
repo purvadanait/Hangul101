@@ -652,9 +652,9 @@ id basic
 id beginning
 id blocking
 id bottom
+id btnCam
 id buttonBackspace
 id buttonClassify
-id buttonClear
 id buttonLayout
 id buttonPanel
 id buttonSpace

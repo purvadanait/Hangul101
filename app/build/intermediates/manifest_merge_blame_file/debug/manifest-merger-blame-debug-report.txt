@@ -6,60 +6,64 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml
+8-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="26" />
-9-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml
+9-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15
-16    <application
-16-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:7:5-21:19
-17        android:allowBackup="true"
-17-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:8:9-35
-18        android:debuggable="true"
-19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:9:9-43
-20        android:label="@string/app_name"
-20-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:10:9-41
-21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:11:9-54
-22        android:supportsRtl="true"
-22-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:12:9-35
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme" >
-24-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:13:9-40
-25        <activity android:name="ibm.tf.hangul.MainActivity" >
-25-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:14:9-20:20
-25-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:14:19-47
-26            <intent-filter>
-26-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:15:13-19:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:16:17-69
-27-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:16:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:18:17-77
-29-->C:\Users\Lenovo\Downloads\tensorflow-hangul-recognition-master\hangul-tensordroid\app\src\main\AndroidManifest.xml:18:27-74
-30            </intent-filter>
-31        </activity>
-32
-33        <meta-data
-33-->[com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cd5043b2d60affb50551ce51bb51dec1\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
-34            android:name="android.support.VERSION"
-34-->[com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cd5043b2d60affb50551ce51bb51dec1\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
-35            android:value="26.1.0" />
-35-->[com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cd5043b2d60affb50551ce51bb51dec1\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
-36        <meta-data
-36-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f45d69d51a7cd9269ac5863e813b302\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
-37            android:name="android.arch.lifecycle.VERSION"
-37-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f45d69d51a7cd9269ac5863e813b302\runtime-1.0.0\AndroidManifest.xml:26:13-58
-38            android:value="27.0.0-SNAPSHOT" />
-38-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f45d69d51a7cd9269ac5863e813b302\runtime-1.0.0\AndroidManifest.xml:27:13-44
-39    </application>
-40
-41</manifest>
+11-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CAMERA" >
+12-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:6:5-82
+12-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:6:22-62
+13    </uses-permission>
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17
+18    <application
+18-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:8:5-22:19
+19        android:allowBackup="true"
+19-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:9:9-35
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:10:9-43
+22        android:label="@string/app_name"
+22-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:11:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:12:9-54
+24        android:supportsRtl="true"
+24-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:13:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:14:9-40
+27        <activity android:name="ibm.tf.hangul.MainActivity" >
+27-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:15:9-21:20
+27-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:15:19-47
+28            <intent-filter>
+28-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:16:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:17:17-69
+29-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:17:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:19:17-77
+31-->E:\App ideas\Hangul 101\hangul-tensordroid\app\src\main\AndroidManifest.xml:19:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <meta-data
+35-->[com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cd5043b2d60affb50551ce51bb51dec1\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+36            android:name="android.support.VERSION"
+36-->[com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cd5043b2d60affb50551ce51bb51dec1\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
+37            android:value="26.1.0" />
+37-->[com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cd5043b2d60affb50551ce51bb51dec1\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
+38        <meta-data
+38-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f45d69d51a7cd9269ac5863e813b302\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+39            android:name="android.arch.lifecycle.VERSION"
+39-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f45d69d51a7cd9269ac5863e813b302\runtime-1.0.0\AndroidManifest.xml:26:13-58
+40            android:value="27.0.0-SNAPSHOT" />
+40-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f45d69d51a7cd9269ac5863e813b302\runtime-1.0.0\AndroidManifest.xml:27:13-44
+41    </application>
+42
+43</manifest>

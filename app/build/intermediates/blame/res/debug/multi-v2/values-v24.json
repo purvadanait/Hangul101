@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Lenovo\\Downloads\\tensorflow-hangul-recognition-master\\hangul-tensordroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "E:\\App ideas\\Hangul 101\\hangul-tensordroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\a31ec6f6fa52cc8fbc645871a11eebc3\\support-media-compat-26.1.0\\res\\values-v24\\values-v24.xml",

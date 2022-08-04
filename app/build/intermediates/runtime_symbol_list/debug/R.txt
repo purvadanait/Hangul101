@@ -651,9 +651,9 @@ int id basic 0x7f070024
 int id beginning 0x7f070025
 int id blocking 0x7f070026
 int id bottom 0x7f070027
-int id buttonBackspace 0x7f070028
-int id buttonClassify 0x7f070029
-int id buttonClear 0x7f07002a
+int id btnCam 0x7f070028
+int id buttonBackspace 0x7f070029
+int id buttonClassify 0x7f07002a
 int id buttonLayout 0x7f07002b
 int id buttonPanel 0x7f07002c
 int id buttonSpace 0x7f07002d
