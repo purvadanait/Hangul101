@@ -1,11 +1,14 @@
 package ibm.tf.hangul;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -24,6 +27,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private EditText resultText;
     private TextView translationText;
     private String[] currentTopLabels;
+    private static final int pic_id = 123;
+    Button camera_open_id;
+    ImageView click_image_id;
 
 
     @Override
@@ -31,13 +37,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        camera_open_id = (Button)findViewById(R.id.btnCam);
+        click_image_id = (ImageView)findViewById(R.id.click_image);
+
+        camera_open_id.setOnClickListener(new View.OnClickListener() {
+
+                                              @Override
+                                              public void onClick(View view) {
+                                                  Intent camera_intent
+                                                          = new Intent(MediaStore
+                                                          .ACTION_IMAGE_CAPTURE);
+
+                                                  // Start the activity with camera_intent,
+                                                  // and request pic id
+                                                  startActivityForResult(camera_intent, pic_id);
+                                              }
+                                          });
+
         paintView = (PaintView) findViewById(R.id.paintView);
 
         TextView drawHereText = (TextView) findViewById(R.id.drawHere);
         paintView.setDrawText(drawHereText);
 
-        Button clearButton = (Button) findViewById(R.id.btnCam);
-        clearButton.setOnClickListener(this);
+        /*Button clearButton = (Button) findViewById(R.id.btnCam);
+        clearButton.setOnClickListener(this); */
 
         Button classifyButton = (Button) findViewById(R.id.buttonClassify);
         classifyButton.setOnClickListener(this);
@@ -67,6 +90,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         resultText = (EditText) findViewById(R.id.editText);
 
         loadModel();
+    }
+
+    protected void onActivityResult(int requestCode,
+                                    int resultCode,
+                                    Intent data)
+    {
+
+        // Match the request 'pic id with requestCode
+        if (requestCode == pic_id) {
+
+            // BitMap is data structure of image file
+            // which stor the image in memory
+            Bitmap photo = (Bitmap)data.getExtras()
+                    .get("data");
+
+            // Set the image in imageview for display
+            click_image_id.setImageBitmap(photo);
+        }
     }
 
 
