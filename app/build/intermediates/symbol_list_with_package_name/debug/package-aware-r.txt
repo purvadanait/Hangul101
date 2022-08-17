@@ -663,6 +663,7 @@ id cancel_action
 id chains
 id checkbox
 id chronometer
+id click_image
 id collapseActionView
 id contentPanel
 id custom
@@ -791,6 +792,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout activity_main
+layout camera
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

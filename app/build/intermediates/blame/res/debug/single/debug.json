@@ -8,6 +8,10 @@
         "source": "E:\\App ideas\\Hangul 101\\hangul-tensordroid\\app\\src\\main\\res\\drawable\\color_cursor.xml"
     },
     {
+        "merged": "E:\\App ideas\\Hangul 101\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_camera.xml.flat",
+        "source": "E:\\App ideas\\Hangul 101\\hangul-tensordroid\\app\\src\\main\\res\\layout\\camera.xml"
+    },
+    {
         "merged": "E:\\App ideas\\Hangul 101\\hangul-tensordroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "E:\\App ideas\\Hangul 101\\hangul-tensordroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
