@@ -32,7 +32,6 @@ public class HangulClassifier {
 
         HangulClassifier classifier = new HangulClassifier();
 
-        // These refer to the names of the nodes we care about in the model graph.
         classifier.inputName = inputName;
         classifier.keepProbName = keepProbName;
         classifier.outputName = outputName;

@@ -100,12 +100,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Match the request 'pic id with requestCode
         if (requestCode == pic_id) {
 
-            // BitMap is data structure of image file
-            // which store the image in memory
             Bitmap photo = (Bitmap)data.getExtras()
                     .get("data");
 
-            // Set the image in imageview for display
             click_image_id.setImageBitmap(photo);
         }
     }
