@@ -102,7 +102,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             Bitmap photo = (Bitmap)data.getExtras()
                     .get("data");
-
             click_image_id.setImageBitmap(photo);
         }
     }
